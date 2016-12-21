@@ -11,9 +11,9 @@ class User extends Authenticatable
     use Notifiable;
     use EntrustUserTrait;
 
-    protected $table = "admin_user";
+    protected $table = "admin_users";
     protected $primaryKey = 'user_id';
-    public $timestamps = false;
+    //public $timestamps = false;
 
     /**
      * The attributes that are mass assignable.
